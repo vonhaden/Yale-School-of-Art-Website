@@ -11,6 +11,7 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="css/styles.css">
     <!-- Fonts -->
 
@@ -19,13 +20,370 @@
 
 <body>
     <!---------------------- NAVBAR ---------------------->
-    <nav class="navbar">
+    <nav class="container-fluid navigation nav-desktop">
+
+        <!-- Logo -->
+        <a class="logo" href="#">
+            <img src="images/yale-art-logo.png" alt="Yale School of Art Crest">
+            <div class="logo-text">Yale School of Art</div>
+        </a>
+
+
+        <!-- Links -->
+        <div class="nav-links">
+            <!-- ABOUT US -->
+            <div class="link-box">
+                <a class="main-link" href="#">About Us</a>
+                <div class="dropdown">
+                    <a href="#">Facilities</a>
+                    <a href="#">Faculty & Staff</a>
+                    <a href="#">Study Areas</a>
+                    <a href="#">Visiting</a>
+                    <a href="#">Support</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <!-- STUDENT WORK -->
+            <div class="link-box">
+                <a class="main-link" href="#">Student Work</a>
+                <div class="dropdown">
+                    <a href="#">Exhibits & Publications</a>
+                </div>
+            </div>
+
+            <!-- PROGRAMS -->
+            <div class="link-box">
+                <a class="main-link" href="#">Programs</a>
+                <div class="dropdown">
+                    <a href="#">Courses</a>
+                    <a href="#">Summer Programs</a>
+                </div>
+            </div>
+
+            <!-- COMMUNITY EVENTS -->
+            <div class="link-box">
+                <a class="main-link" href="#">Community Events</a>
+            </div>
+
+
+            <!-- ACADEMIC CALENDER -->
+            <div class="link-box">
+                <a class="main-link" href="#">Academic Calendar</a>
+            </div>
+
+            <!-- STUDENT RESOURCES -->
+            <div class="link-box ">
+                <a class="main-link" href="#">Student Resources</a>
+                <div class="dropdown">
+                    <a href="#">Financial Aid</a>
+                    <a href="#">How To Apply</a>
+                    <a href="#">General Info</a>
+                    <a href="#">Residencies</a>
+                    <a href="#">Undergraduate</a>
+                    <a href="#">Apply</a>
+                    <a href="#">Tuition & Fees</a>
+                    <a href="#">On Campus Resources</a>
+                    <a href="#">Incentives</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- SEARCH -->
+        <div class="nav-right">
+            <a class="login" href="#">Login</a>
+            <button class="btn btn-primary apply">Apply</button>
+            <button class="btn btn-primary btn-grey-borders"><i class="fas fa-search"></i></button>
+        </div>
+
 
     </nav>
 
-    <div class="container">
-        <h1>Test</h1>
+
+
+    <!---------------------- JUMBOTRON ---------------------->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="overlay">
+            <div class="container">
+                <h1>Yale School of Art</h1>
+                <button type="button" class="btn btn-primary btn-grey">View Our Programs</button>
+            </div>
+        </div>
     </div>
+
+
+
+    <!---------------------- STUDENT SHOWCASE ---------------------->
+    <div class="container-fluid showcase">
+        <h2>Student Showcase</h2>
+        <div class="showcase-holder">
+            <div class="student">
+                <div class="thumbnail">
+                    <img src="images/showcase.jpg" alt="Student showcase thumbnail.">
+                </div>
+                <div class="details">
+                    <h4>Name of Gallery</h4>
+                    <h3>Student Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                </div>
+            </div>
+
+            <div class="student">
+                <div class="thumbnail">
+                    <img src="images/showcase.jpg" alt="Student showcase thumbnail.">
+                </div>
+                <div class="details">
+                    <h4>Name of Gallery</h4>
+                    <h3>Student Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                </div>
+
+            </div>
+
+            <div class="student">
+                <div class="thumbnail">
+                    <img src="images/showcase.jpg" alt="Student showcase thumbnail.">
+                </div>
+                <div class="details">
+                    <h4>Name of Gallery</h4>
+                    <h3>Student Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                </div>
+
+            </div>
+
+            <div class="student">
+                <div class="thumbnail">
+                    <img src="images/showcase.jpg" alt="Student showcase thumbnail.">
+                </div>
+                <div class="details">
+                    <h4>Name of Gallery</h4>
+                    <h3>Student Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!---------------------- PROGRAMS ---------------------->
+    <div class="programs">
+        <div class="container">
+            <div class="row">
+                <h2>Programs</h2>
+            </div>
+            <div class="row">
+                <a href="#" class="col-lg-3 col-md-6 program">
+                    <button class="btn btn-primary">Graphic Design</button>
+                </a>
+                <a href="#" class="col-lg-3 col-md-6 program">
+                    <button class="btn btn-primary">Painting & Print Making</button>
+                </a>
+                <a href="#" class="col-lg-3 col-md-6 program">
+                    <button class="btn btn-primary">Photography</button>
+                </a>
+                <a href="#" class="col-lg-3 col-md-6 program">
+                    <button class="btn btn-primary">Sculpture</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---------------------- EVENTS ---------------------->
+    <div class="events">
+        <div class="container">
+            <div class="row">
+                <h2>Upcoming Community Events</h2>
+            </div>
+            <div class="row">
+                <div class="event col-xl-6 col-lg-12">
+                    <div class="event-image">
+                        <img src="images/showcase.jpg" alt="Sample event image.">
+                    </div>
+                    <div class="event-text">
+                        <div class="event-time">
+                            <p class="date">Nov 18, 2019</p>
+                            <p class="time">6:00 PM</p>
+                        </div>
+                        <h3>Event Name Goes Here</h3>
+                        <p>Ullamcorper malesuada proin libero nunc consequat interdum varius. Sit amet dictum sit amet justo. Integer enim neque volutpat ac tincidunt vitae...</p>
+                        <button class="btn btn-primary btn-white-borders">More Information</button>
+                    </div>
+                </div>
+                <div class="event col-xl-6 col-lg-12">
+                    <div class="event-image">
+                        <img src="images/showcase.jpg" alt="Sample event image.">
+                    </div>
+                    <div class="event-text">
+                        <div class="event-time">
+                            <p class="date">Nov 18, 2019</p>
+                            <p class="time">6:00 PM</p>
+                        </div>
+                        <h3>Event Name Goes Here</h3>
+                        <p>Ullamcorper malesuada proin libero nunc consequat interdum varius. Sit amet dictum sit amet justo. Integer enim neque volutpat ac tincidunt vitae...</p>
+                        <button class="btn btn-primary btn-white-borders">More Information</button>
+                    </div>
+                </div>
+                <div class="event col-xl-6 col-lg-12">
+                    <div class="event-image">
+                        <img src="images/showcase.jpg" alt="Sample event image.">
+                    </div>
+                    <div class="event-text">
+                        <div class="event-time">
+                            <p class="date">Nov 18, 2019</p>
+                            <p class="time">6:00 PM</p>
+                        </div>
+                        <h3>Event Name Goes Here</h3>
+                        <p>Ullamcorper malesuada proin libero nunc consequat interdum varius. Sit amet dictum sit amet justo. Integer enim neque volutpat ac tincidunt vitae...</p>
+                        <button class="btn btn-primary btn-white-borders">More Information</button>
+                    </div>
+                </div>
+                <div class="event col-xl-6 col-lg-12">
+                    <div class="event-image">
+                        <img src="images/showcase.jpg" alt="Sample event image.">
+                    </div>
+                    <div class="event-text">
+                        <div class="event-time">
+                            <p class="date">Nov 18, 2019</p>
+                            <p class="time">6:00 PM</p>
+                        </div>
+                        <h3>Event Name Goes Here</h3>
+                        <p>Ullamcorper malesuada proin libero nunc consequat interdum varius. Sit amet dictum sit amet justo. Integer enim neque volutpat ac tincidunt vitae...</p>
+                        <button class="btn btn-primary btn-white-borders">More Information</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---------------------- EVENTS ---------------------->
+    <div class="news">
+        <div class="container">
+            <div class="row">
+                <h2>News</h2>
+            </div>
+            <div class="row">
+                <div class="article col-xl-4 col-lg-6">
+                    <div class="article-content">
+                        <p class="article-date">Nov. 1, 2019 11:23 AM</p>
+                        <h3>Ullamcorper Malesuada Proin Libero</h3>
+                        <p class="article-info">Ullamcorper malesuada proin libero nunc consequat interdum varius. Sit amet dictum sit amet justo. Integer enim neque volutpat ac tincidunt vitae semper. Nulla posuere sollicitudin aliquam ultrices sagittis. Volutpat lacus laoreet non curabitur gravida arcu. Interdum posuere lorem ipsum dolor sit. A lacus vestibulum sed arcu non odio euismod.</p>
+                        <button class="btn btn-primary btn-blue">Read More</button>
+                    </div>
+                </div>
+
+                <div class="article col-xl-4 col-lg-6">
+                    <div class="article-content">
+                        <p class="article-date">Nov. 1, 2019 11:23 AM</p>
+                        <h3>Ullamcorper Malesuada Proin Libero</h3>
+                        <p class="article-info">Ullamcorper malesuada proin libero nunc consequat interdum varius. Sit amet dictum sit amet justo. Integer enim neque volutpat ac tincidunt vitae semper. Nulla posuere sollicitudin aliquam ultrices sagittis. Volutpat lacus laoreet non curabitur gravida arcu. Interdum posuere lorem ipsum dolor sit. A lacus vestibulum sed arcu non odio euismod.</p>
+                        <button class="btn btn-primary btn-blue">Read More</button>
+                    </div>
+                </div>
+
+                <div class="article col-xl-4 col-lg-6">
+                    <div class="article-content">
+                        <p class="article-date">Nov. 1, 2019 11:23 AM</p>
+                        <h3>Ullamcorper Malesuada Proin Libero</h3>
+                        <p class="article-info">Ullamcorper malesuada proin libero nunc consequat interdum varius. Sit amet dictum sit amet justo. Integer enim neque volutpat ac tincidunt vitae semper. Nulla posuere sollicitudin aliquam ultrices sagittis. Volutpat lacus laoreet non curabitur gravida arcu. Interdum posuere lorem ipsum dolor sit. A lacus vestibulum sed arcu non odio euismod.</p>
+                        <button class="btn btn-primary btn-blue">Read More</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---------------------- FOOTER ---------------------->
+    <footer>
+        <div class="footer-top">
+            <div class="container-fluid">
+
+                <div class="footer-info">
+                    <h2>Yale School of Art</h2>
+                    <div class="address">
+                        <p>1156 Chapel Street, POB 208339</p>
+                        <p>New Haven, Connecticut, 06520-8339</p>
+                    </div>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div>
+                        <h4><a href="#">About Us</a></h4>
+                        <ul>
+                            <li><a href="#">Facilities</a></li>
+                            <li><a href="#">Faculty & Staff</a></li>
+                            <li><a href="#">Study Areas</a></li>
+                            <li><a href="#">Visiting</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Contact</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4><a href="#">Student Work</a></h4>
+                        <ul>
+                            <li><a href="#">Exhibits & Publications</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4><a href="#">Programs</a></h4>
+                        <ul>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Summer Programs</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4><a href="#">Community Events</a></h4>
+                    </div>
+
+                    <div>
+                        <h4><a href="#">Academic Calendar</a></h4>
+                    </div>
+
+                    <div>
+                        <h4><a href="#">Student Resources</a></h4>
+                        <ul>
+                            <li><a href="#">Financial Aid</a></li>
+                            <li><a href="#">How To Apply</a></li>
+                            <li><a href="#">General Info</a></li>
+                            <li><a href="#">Residencies</a></li>
+                            <li><a href="#">Undergraduate</a></li>
+                            <li><a href="#">Apply</a></li>
+                            <li><a href="#">Tuition & Fees</a></li>
+                            <li><a href="#">On Campus Resources</a></li>
+                            <li><a href="#">Incentives</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>© 2019 Yale School of Art</p>
+        </div>
+    </footer>
+
 
 
     <!---------------------- SCRIPTS ---------------------->
@@ -37,6 +395,8 @@
         <!-- Bootstrap -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+        <!-- My Scripts -->
+        <script src="js/scripts.js"></script>
     </div>
 </body>
 </html>

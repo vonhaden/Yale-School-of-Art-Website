@@ -1,0 +1,95 @@
+// Fonts
+@mixin mallory-light {
+    font-family: $mallory;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@mixin mallory-italic {
+    font-family: $mallory;
+    font-weight: 300;
+    font-style: italic;
+}
+
+@mixin mallory-medium {
+    font-family: $mallory;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@mixin yale {
+    font-family: $yale;
+    letter-spacing: 0.5px;
+}
+
+@mixin yale-bold {
+    font-family: $yale;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+
+@mixin mallory-caps {
+    @include mallory-medium;
+    text-transform: uppercase;
+    word-spacing: 1.25px;
+    letter-spacing: 0.75px;
+}
+
+
+
+// Section Padding
+@mixin vert-pad-lg {
+    padding-top: $section-pad-lg;
+    padding-bottom: $section-pad-lg;
+}
+
+@mixin hor-pad-fluid {
+    padding-right: $hor-fluid-pad;
+    padding-left: $hor-fluid-pad;
+}
+
+
+
+
+// Divider Line
+@mixin divider-base {
+    &:after {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 1px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+@mixin divider {
+    @include divider-base;
+    &:after {
+        background-color: #ddd;
+    }
+}
+
+@mixin divider-color($color) {
+    @include divider-base;
+    &:after {
+        background-color: $color;
+    }
+}
+
+
+
+// links
+@mixin caps-link {
+    @include mallory-caps;
+    color: $blue-medium;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.25s;
+
+    &:hover {
+        //color: $grey-light;
+        border-bottom: 1px solid $blue-medium;
+    }
+}

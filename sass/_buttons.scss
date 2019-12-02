@@ -1,0 +1,92 @@
+// Borders
+@mixin btn-border-hover {
+    border: 1px solid $grey-light;
+}
+
+body {
+
+    .btn {
+        border-radius: 0;
+        @include mallory-caps;
+        font-size: .875rem;
+        transition: .25s;
+    }
+
+    .btn-primary {
+        color: $white;
+        background-color: $blue-dark;
+        border: 1px solid transparent;
+        padding: $button-pad;
+
+        &:hover {
+            color: $grey-dark;
+            background-color: $white;
+            @include btn-border-hover;
+        }
+    }
+
+    // Solid blue button
+    .btn-blue {
+        color: $white;
+        background-color: $blue-dark;
+        border: 1px solid transparent;
+        padding: $button-pad;
+
+        &:hover {
+            color: $grey-dark;
+            background-color: $white;
+            @include btn-border-hover;
+        }
+    }
+
+    // Solid blue button hover state (for jQuery)
+    .btn-blue-hover {
+        color: $grey-dark;
+        background-color: $white;
+        @include btn-border-hover;
+    }
+
+    // Solid grey button
+    .btn-grey {
+        color: $white;
+        background-color: $grey-dark;
+        border: 1px solid transparent;
+        padding: $button-pad;
+
+        &:hover {
+            color: $blue-dark;
+            background-color: $white;
+            border: 1px solid $grey-dark;
+        }
+    }
+
+    // Transparent button with white outline (hovers to white)
+    .btn-white-borders {
+        color: $white;
+        background-color: transparent;
+        border: 1px solid $white;
+        padding: $button-pad;
+
+        &:hover {
+            color: $blue-dark;
+            background-color: $white;
+            border: 1px solid $blue-medium;
+        }
+    }
+
+    // White button with light grey outline (hovers to dark blue)
+    .btn-grey-borders {
+        color: $blue-dark;
+        background-color: $white;
+        border: 1px solid $grey-light;
+        padding: $button-pad;
+
+        &:hover {
+            color: $white;
+            background-color: $blue-dark;
+            border: 1px solid transparent;
+        }
+    }
+
+
+}

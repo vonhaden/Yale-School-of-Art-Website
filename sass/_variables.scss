@@ -1,16 +1,31 @@
 /******************** COLORS ********************/
+// main
 $white: #fff;
 $black: #000;
+
+//blues
+$blue-dark: #00356b;
+$blue-medium: #286dc0;
+$blue-light: #63aaff;
+
+//greys
+$grey-black: #222222;
+$grey-dark: #4a4a4a;
+$grey-medium: #7e736b;
+$grey-hover: #978d85;
+$grey-light: #ddd;
+$grey-white: #f9f9f9;
 
 
 
 /******************** FONTS ********************/
-
+$mallory: Mallory, 'Gill Sans', 'Gill Sans MT', Calibri, Arial, sans-serif;
+$yale: yale, TimesNewRoman, Times New Roman, Times,Baskerville, Georgia, serif;
 
 
 /******************** SPACING ********************/
-$section-pad: 3em;
-$section-pad-xs: 3.5em;
-$section-pad-sm: 4em;
-$section-pad-md: 4.5em;
-$section-pad-lg: 5em;
+$section-pad-lg: 70px;
+$button-pad: 15px;
+$h2-margin: 40px;
+
+$hor-fluid-pad: 25px;

@@ -1,3 +1,253 @@
-h1 {
-    color: red;
+.jumbotron {
+    margin-bottom: 0;
+    height: 550px;
+    background-image:url("../images/cover.jpg");
+    object-fit: cover;
+    padding: 0;
+
+    .overlay {
+        background-color: rgba(255, 255, 255, .75);
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .container {
+            text-align: center;
+
+            h1 {
+                margin-top: 0;
+                font-size: 80px;
+            }
+        }
+    }
+
+}
+
+
+.showcase {
+    @include vert-pad-lg;
+
+    h2 {
+        margin-bottom: $h2-margin;
+    }
+
+    .showcase-holder {
+        display: flex;
+        overflow: hidden;
+
+        .student {
+            display: flex;
+            width: 520px;
+            margin-right: 70px;
+            flex-shrink: 0;
+
+            .thumbnail {
+                padding-right: 15px;
+
+                img {
+                    height: 300px;
+                    width: 300px;
+                    object-fit: cover;
+                }
+            }
+            .details {
+                h4 {
+                    @include mallory-caps;
+                    color: $grey-medium;
+                    font-size: 12px;
+                }
+                h3 {
+                    font-size: 26px;
+                    @include divider;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+
+    }
+}
+
+
+.programs {
+    @include vert-pad-lg;
+    background-color: $blue-dark;
+
+    h2 {
+        color: $white;
+        margin-bottom: $h2-margin;
+    }
+
+    .program {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.25s;
+
+        // makes the boxes responsive squares
+        &:before {
+            content: "";
+            display: block;
+            padding-top: 100%;
+        }
+
+
+        &:nth-child(1){
+            background-image: url("../images/graphics.jpg");
+        }
+        &:nth-child(2){
+            background-image: url("../images/painting.jpg");
+        }
+        &:nth-child(3){
+            background-image: url("../images/photography.jpg");
+        }
+        &:nth-child(4){
+            background-image: url("../images/sculpture.jpg");
+        }
+    }
+}
+
+
+.events {
+    @include vert-pad-lg;
+
+    h2 {
+        margin-bottom: $h2-margin;
+    }
+
+    .event {
+        display: flex;
+        color: $white;
+        padding: 0;
+
+
+        &:nth-of-type(1) {
+            margin-bottom: 15px;
+            padding-right: 10px;
+        }
+        &:nth-of-type(2) {
+            margin-bottom: 15px;
+            padding-left: 10px;
+        }
+        &:nth-of-type(3) {
+            padding-right: 10px;
+        }
+        &:nth-of-type(4) {
+            padding-left: 10px;
+        }
+
+
+
+
+        .event-image {
+            height: 100%;
+            //padding-left: -15px;
+
+            img {
+                height: 100%;
+                width: 260px;
+                object-fit: cover;
+            }
+        }
+
+        .event-text {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: $blue-dark;
+
+
+            .event-time {
+                display: flex;
+                font-size: 14px;
+                letter-spacing: 0.75px;
+
+                .date {
+                    font-weight: 600;
+                    padding-right: 10px;
+                    margin-right: 10px;
+                    border-right: 1px solid $grey-light;
+                }
+                .time {
+
+                }
+            }
+            h3 {
+                color: $white;
+                @include divider-color(#36608A);
+
+            }
+            p {
+                font-size: 13px;
+            }
+            .btn {
+                font-size: 14px;
+                float: right;
+            }
+        }
+    }
+}
+
+
+.news {
+    @include vert-pad-lg;
+    background-color: $grey-light;
+
+    h2 {
+        margin-bottom: $h2-margin;
+    }
+
+    .article {
+        padding-left: 0;
+        padding-right: 0;
+
+        &:nth-of-type(1){
+            padding-right: 7px;
+        }
+        &:nth-of-type(2){
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+        &:nth-of-type(3){
+            padding-left: 7px;
+        }
+
+        .article-content {
+            background-color: $white;
+            padding: 20px;
+            height: 100%;
+
+            .article-date {
+                font-weight: 600;
+                color: #646464;
+                font-size: 13px;
+                letter-spacing: 0.75px;
+                margin-bottom: 0.5rem;
+            }
+
+            h3 {
+                font-size: 22px;
+                @include divider-color($grey-light);
+            }
+
+            .article-info {
+                font-size: 13px;
+                color: #646464;
+            }
+
+            .btn {
+                font-size: 14px;
+                float: right;
+                margin-bottom: 20px;
+            }
+        }
+    }
 }

@@ -1,0 +1,111 @@
+footer {
+    background-color: $grey-black;
+
+    .container-fluid {
+        display: flex;
+    }
+
+    .footer-top{
+
+        padding-top: 40px;
+
+        .footer-info {
+
+            border-right: 2px solid rgba(255, 255, 255, .1);
+            padding-right: 60px;
+            margin-right: 60px;
+
+            h2 {
+                color: $white;
+                font-size: 30px;
+                margin-bottom: 25px;
+            }
+            .address {
+                margin-bottom: 25px;
+
+                p {
+                    @include yale;
+                    color: $grey-medium;
+                    margin-bottom: 0;
+                    font-size: 14px;
+                }
+            }
+            .social {
+                display: flex;
+
+                a {
+                    font-size: 18px;
+                    transition: .25s;
+                    background-color: $blue-medium;
+                    color: $white;
+                    padding: 5px;
+                    width: 35px;
+                    height: 35px;
+                    display: block;
+                    text-align: center;
+                    margin-right: 5px;
+
+                    &:hover {
+                        background-color: $blue-dark;
+                    }
+                }
+            }
+        }
+
+        .footer-links {
+            flex-grow: 1;
+            display: flex;
+            width: auto;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+
+            div {
+                h4 {
+                    @include mallory-caps;
+                    font-size: 16px;
+                    a {
+                        color: $blue-light;
+                        text-decoration: none;
+
+                        &:hover {
+                            color: $blue-medium;
+                        }
+
+                    }
+                }
+
+                ul {
+                    list-style-type: none;
+
+                    li {
+                        a {
+                            @include yale;
+                            color: $white;
+                            text-decoration: none;
+
+                            &:hover {
+                                color: $blue-light;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .copyright {
+        text-align: center;
+        color: $grey-light;
+        margin-bottom: 0;
+        padding: 15px 0;
+
+        p {
+            margin-bottom: 0;
+            @include yale;
+            color: $grey-medium;
+            font-size: 12px;
+        }
+    }
+}
