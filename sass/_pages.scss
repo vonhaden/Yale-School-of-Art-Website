@@ -1,0 +1,68 @@
+.student-work {
+    @include vert-pad-lg;
+    background-color: $grey-white;
+
+    .heading {
+        position: relative;
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: $h2-margin;
+        }
+
+        a {
+            position: absolute;
+            top: 0;
+            right: 15px;
+        }
+    }
+
+    .student {
+        display: flex;
+        margin-bottom: 20px;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+
+        .thumbnail {
+            img {
+                height: 250px;
+                width: 250px;
+                object-fit: cover;
+            }
+        }
+        .details {
+            padding: 20px;
+            background-color: $white;
+
+            h4 {
+                @include mallory-caps;
+                color: $grey-medium;
+                font-size: 12px;
+            }
+            h3 {
+                font-size: 26px;
+                @include divider;
+            }
+            p {
+                font-size: 14px;
+            }
+            a {
+                float: right;
+            }
+        }
+
+    }
+}
+
+.upload-page {
+    @include vert-pad-lg;
+    background-color: $grey-white;
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: $h2-margin;
+    }
+}

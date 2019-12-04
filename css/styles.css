@@ -504,7 +504,7 @@ body .container-fluid {
 .navigation .nav-right .btn {
   font-size: 13px;
 }
-.navigation .nav-right .login {
+.navigation .nav-right .right-link {
   font-family: Mallory, "Gill Sans", "Gill Sans MT", Calibri, Arial, sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -517,10 +517,10 @@ body .container-fluid {
   transition: 0.25s;
   font-size: 14px;
 }
-.navigation .nav-right .login:hover {
+.navigation .nav-right .right-link:hover {
   border-bottom: 1px solid #286dc0;
 }
-.navigation .nav-right .apply {
+.navigation .nav-right .right-btn {
   margin-left: 25px;
   margin-right: 10px;
 }
@@ -601,7 +601,7 @@ body .btn-grey-borders:hover {
 }
 
 /*--------------------------------------------------------------
-# Content
+# Home
 --------------------------------------------------------------*/
 .jumbotron {
   margin-bottom: 0;
@@ -846,6 +846,105 @@ body .btn-grey-borders:hover {
   font-size: 14px;
   float: right;
   margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------------
+# Login
+--------------------------------------------------------------*/
+.login {
+  background-color: #ddd;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login .login-box {
+  background-color: #fff;
+  width: 500px;
+  padding: 25px;
+}
+.login .login-box h1 {
+  margin-top: 0;
+}
+.login .login-box .btn {
+  float: right;
+}
+
+/*--------------------------------------------------------------
+# Pages
+--------------------------------------------------------------*/
+.student-work {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #f9f9f9;
+}
+.student-work .heading {
+  position: relative;
+}
+.student-work .heading h1 {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.student-work .heading a {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+.student-work .student {
+  display: flex;
+  margin-bottom: 20px;
+}
+.student-work .student:last-of-type {
+  margin-bottom: 0;
+}
+.student-work .student .thumbnail img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+.student-work .student .details {
+  padding: 20px;
+  background-color: #fff;
+}
+.student-work .student .details h4 {
+  font-family: Mallory, "Gill Sans", "Gill Sans MT", Calibri, Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  word-spacing: 1.25px;
+  letter-spacing: 0.75px;
+  color: #7e736b;
+  font-size: 12px;
+}
+.student-work .student .details h3 {
+  font-size: 26px;
+}
+.student-work .student .details h3:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 1px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.student-work .student .details h3:after {
+  background-color: #ddd;
+}
+.student-work .student .details p {
+  font-size: 14px;
+}
+.student-work .student .details a {
+  float: right;
+}
+
+.upload-page {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #f9f9f9;
+}
+.upload-page h1 {
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 /*--------------------------------------------------------------
