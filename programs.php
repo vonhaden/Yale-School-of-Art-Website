@@ -45,7 +45,7 @@ include "includes/nav.php";
                     <p>The individual collection of graphic design work by each student is supported on several levels simultaneously: studio work led by faculty meeting weekly; small six-person thesis groups meeting biweekly; individual sessions with writing and editing tutors; and lectures, presentations, and workshops.</p>
                 </div>
                 <div class="links">
-                    <a href="#" class="btn btn-primary btn-grey-borders">Courses</a>
+                    <a href="courses.php" class="btn btn-primary btn-grey-borders">Courses</a>
                     <a href="#" class="btn btn-primary">Find Out More</a>
                 </div>
             </div>
@@ -73,7 +73,7 @@ include "includes/nav.php";
                     <p>Students work in individual 300-square-foot studios at 353 Crown Street adjacent to Green Hall. Students have access to a printmaking workshop in the Crown Street building, equipped with two etching presses and a lithography press, a fully equipped silkscreen facility, as well as digital resources available in the print studio, throughout the School, and at the Center for Collaborative Arts and Media.</p>
                 </div>
                 <div class="links">
-                    <a href="#" class="btn btn-primary btn-grey-borders">Courses</a>
+                    <a href="courses.php" class="btn btn-primary btn-grey-borders">Courses</a>
                     <a href="#" class="btn btn-primary">Find Out More</a>
                 </div>
             </div>
@@ -100,7 +100,7 @@ include "includes/nav.php";
                     <p>The program is committed to a broad definition of photography as a lens-based medium open to a variety of expressive means. Students work both individually and in groups with faculty and visiting artists. In addition, a critique panel composed of faculty and other artists or critics meets weekly, as well as for a final review each term, to discuss student work.</p>
                 </div>
                 <div class="links">
-                    <a href="#" class="btn btn-primary btn-grey-borders">Courses</a>
+                    <a href="courses.php" class="btn btn-primary btn-grey-borders">Courses</a>
                     <a href="#" class="btn btn-primary">Find Out More</a>
                 </div>
             </div>
@@ -127,7 +127,7 @@ include "includes/nav.php";
                     <p>The main focus of this program is to facilitate the development of conversation and constructive critique among students and faculty. Our aim is to articulate student work vis-à-vis its own trajectory and in relation to art history and the current moment. This conversation is formally structured to take place one-on-one between students and faculty, in small groups, and within a larger group involving the whole sculpture department.</p>
                 </div>
                 <div class="links">
-                    <a href="#" class="btn btn-primary btn-grey-borders">Courses</a>
+                    <a href="courses.php" class="btn btn-primary btn-grey-borders">Courses</a>
                     <a href="#" class="btn btn-primary">Find Out More</a>
                 </div>
             </div>

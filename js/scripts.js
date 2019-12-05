@@ -6,6 +6,11 @@ $(document).ready(function () {
         $('button', this).toggleClass('btn-blue-hover');
     });
 
+    // make the logo a link
+    $('.logo').click(function () {
+        window.location.href = 'index.php';
+    });
+
 
     //-------------- PLUGINS  --------------//
     // Plugin that shows name of file in file section box (uploader page)

@@ -16,7 +16,7 @@ include "includes/nav.php";
     <div class="overlay">
         <div class="container">
             <h1>Yale School of Art</h1>
-            <button type="button" class="btn btn-primary btn-grey">View Our Programs</button>
+            <a href="programs.php" class="btn btn-primary btn-grey">View Our Programs</a>
         </div>
     </div>
 </div>
@@ -29,49 +29,57 @@ include "includes/nav.php";
     <div class="showcase-holder">
         <div class="student">
             <div class="thumbnail">
-                <img src="images/showcase.jpg" alt="Student showcase thumbnail.">
+                <img src="images/showcase/showcase-1.jpg" alt="Student showcase thumbnail.">
             </div>
             <div class="details">
-                <h4>Name of Gallery</h4>
-                <h3>Student Name</h3>
+                <h4>Senior Thesis</h4>
+                <h3>Chase Westover</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
             </div>
         </div>
 
         <div class="student">
             <div class="thumbnail">
-                <img src="images/showcase.jpg" alt="Student showcase thumbnail.">
+                <img src="images/showcase/showcase-2.jpg" alt="Student showcase thumbnail.">
             </div>
             <div class="details">
-                <h4>Name of Gallery</h4>
-                <h3>Student Name</h3>
+                <h4>Second-Year Show</h4>
+                <h3>Johannes DeYoung</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
             </div>
-
         </div>
 
         <div class="student">
             <div class="thumbnail">
-                <img src="images/showcase.jpg" alt="Student showcase thumbnail.">
+                <img src="images/showcase/showcase-3.jpg" alt="Student showcase thumbnail.">
             </div>
             <div class="details">
-                <h4>Name of Gallery</h4>
-                <h3>Student Name</h3>
+                <h4>Design Showcase</h4>
+                <h3>Tantan Wang</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
             </div>
-
         </div>
 
         <div class="student">
             <div class="thumbnail">
-                <img src="images/showcase.jpg" alt="Student showcase thumbnail.">
+                <img src="images/showcase/showcase-4.jpg" alt="Student showcase thumbnail.">
+            </div>
+            <div class="details">
+                <h4>Unfinished: An Exhibition</h4>
+                <h3>Sadie Cornette Cook</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            </div>
+        </div>
+
+        <div class="student">
+            <div class="thumbnail">
+                <img src="images/showcase/showcase-5.jpg" alt="Student showcase thumbnail.">
             </div>
             <div class="details">
                 <h4>Name of Gallery</h4>
-                <h3>Student Name</h3>
+                <h3>Hazal Ozgur</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
             </div>
-
         </div>
 
     </div>
@@ -117,11 +125,25 @@ include "includes/nav.php";
                 </div>
                 <div class="event-text">
                     <div class="event-time">
-                        <p class="date">Nov 18, 2019</p>
-                        <p class="time">6:00 PM</p>
+                        <p class="date">Nov 20, 2019</p>
+                        <p class="time">12:00 PM</p>
                     </div>
-                    <h3>Event Name Goes Here</h3>
-                    <p>Ullamcorper malesuada proin libero nunc consequat interdum varius. Sit amet dictum sit amet justo. Integer enim neque volutpat ac tincidunt vitae...</p>
+                    <h3>On Machine Learning & the Collective Condition</h3>
+                    <p>Hosted in conjunction with the public lectures organized by the Yale School of Art in tandem with its 150th anniversary and its status as a co-educational...</p>
+                    <button class="btn btn-primary btn-white-borders">More Information</button>
+                </div>
+            </div>
+            <div class="event col-xl-6 col-lg-12">
+                <div class="event-image">
+                    <img src="images/showcase.jpg" alt="Sample event image.">
+                </div>
+                <div class="event-text">
+                    <div class="event-time">
+                        <p class="date">Nov 21, 2019</p>
+                        <p class="time">6:30 PM</p>
+                    </div>
+                    <h3>Artist & Poet Barbara Chase-Riboud</h3>
+                    <p>Hosted in conjunction with the series of public events organized by the Yale School of Art in celebration of its 150th anniversary and its status as a co-educational...</p>
                     <button class="btn btn-primary btn-white-borders">More Information</button>
                 </div>
             </div>
@@ -134,8 +156,8 @@ include "includes/nav.php";
                         <p class="date">Nov 18, 2019</p>
                         <p class="time">6:00 PM</p>
                     </div>
-                    <h3>Event Name Goes Here</h3>
-                    <p>Ullamcorper malesuada proin libero nunc consequat interdum varius. Sit amet dictum sit amet justo. Integer enim neque volutpat ac tincidunt vitae...</p>
+                    <h3>What Should Socalism Mean?</h3>
+                    <p>In a talk entitled “What should socialism mean in the 21st century?,” Nancy Fraser will consider the resurgence of the term nationally and venture the beginnings of...</p>
                     <button class="btn btn-primary btn-white-borders">More Information</button>
                 </div>
             </div>
@@ -145,25 +167,11 @@ include "includes/nav.php";
                 </div>
                 <div class="event-text">
                     <div class="event-time">
-                        <p class="date">Nov 18, 2019</p>
-                        <p class="time">6:00 PM</p>
+                        <p class="date">Nov 14, 2019</p>
+                        <p class="time">5:30 PM</p>
                     </div>
-                    <h3>Event Name Goes Here</h3>
-                    <p>Ullamcorper malesuada proin libero nunc consequat interdum varius. Sit amet dictum sit amet justo. Integer enim neque volutpat ac tincidunt vitae...</p>
-                    <button class="btn btn-primary btn-white-borders">More Information</button>
-                </div>
-            </div>
-            <div class="event col-xl-6 col-lg-12">
-                <div class="event-image">
-                    <img src="images/showcase.jpg" alt="Sample event image.">
-                </div>
-                <div class="event-text">
-                    <div class="event-time">
-                        <p class="date">Nov 18, 2019</p>
-                        <p class="time">6:00 PM</p>
-                    </div>
-                    <h3>Event Name Goes Here</h3>
-                    <p>Ullamcorper malesuada proin libero nunc consequat interdum varius. Sit amet dictum sit amet justo. Integer enim neque volutpat ac tincidunt vitae...</p>
+                    <h3>50 Years of Change in Visual Arts</h3>
+                    <p>The event marks the 50th anniversary of African American Studies at Yale and will reflect on changing perceptions of black visual arts since 1969...</p>
                     <button class="btn btn-primary btn-white-borders">More Information</button>
                 </div>
             </div>

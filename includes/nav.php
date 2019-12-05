@@ -2,10 +2,10 @@
 <nav class="container-fluid navigation nav-desktop">
 
     <!-- Logo -->
-    <a class="logo" href="index.php">
+    <div class="logo">
         <img src="images/yale-art-logo.png" alt="Yale School of Art Crest">
         <div class="logo-text">Yale School of Art</div>
-    </a>
+    </div>
 
 
     <!-- Links -->

@@ -10,10 +10,10 @@
                     <p>New Haven, Connecticut, 06520-8339</p>
                 </div>
                 <div class="social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/YaleSchoolofArt/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/yaleartgallery?lang=en"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/yaleschoolofart/?hl=en"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/yale-art-gallery"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
 
@@ -32,22 +32,22 @@
                 </div>
 
                 <div>
-                    <h4><a href="#">Student Work</a></h4>
+                    <h4><a href="student-work.php">Student Work</a></h4>
                     <ul>
                         <li><a href="#">Exhibits & Publications</a></li>
                     </ul>
                 </div>
 
                 <div>
-                    <h4><a href="#">Programs</a></h4>
+                    <h4><a href="programs.php">Programs</a></h4>
                     <ul>
-                        <li><a href="#">Courses</a></li>
+                        <li><a href="courses.php">Courses</a></li>
                         <li><a href="#">Summer Programs</a></li>
                     </ul>
                 </div>
 
                 <div>
-                    <h4><a href="#">Community Events</a></h4>
+                    <h4><a href="community-events.php">Community Events</a></h4>
                 </div>
 
                 <div>
