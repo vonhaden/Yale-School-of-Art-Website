@@ -1139,6 +1139,173 @@ body .btn-grey-borders:hover {
   margin-left: 10px;
 }
 
+.courses-page .heading-bar {
+  background-color: #f6f6f6;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.courses-page .heading-bar .heading h1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.courses-page .courses-list {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.courses-page .courses-list .course {
+  display: flex;
+  align-items: center;
+  transition: 0.25s;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.courses-page .courses-list .course:hover {
+  background-color: #f6f6f6;
+}
+.courses-page .courses-list .course .heading {
+  width: 400px;
+  padding-right: 40px;
+  margin-right: 40px;
+  border-right: 1px solid #ddd;
+}
+.courses-page .courses-list .course .heading h3 {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+}
+.courses-page .courses-list .course .heading h3 a {
+  color: #00356b;
+  transition: 0.25s;
+}
+.courses-page .courses-list .course .heading h3 a:hover {
+  color: #286dc0;
+  text-decoration: none;
+}
+.courses-page .courses-list .course .heading h4 {
+  font-family: Mallory, "Gill Sans", "Gill Sans MT", Calibri, Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  word-spacing: 1.25px;
+  letter-spacing: 0.75px;
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  margin-bottom: 3px;
+}
+.courses-page .courses-list .course .heading h5 {
+  font-family: Mallory, "Gill Sans", "Gill Sans MT", Calibri, Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  color: #4a4a4a;
+}
+.courses-page .courses-list .course .details {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-grow: 1;
+}
+.courses-page .courses-list .course .details h4 {
+  font-family: Mallory, "Gill Sans", "Gill Sans MT", Calibri, Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  word-spacing: 1.25px;
+  letter-spacing: 0.75px;
+  font-size: 0.9rem;
+}
+.courses-page .courses-list .course .details p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.course-page {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #f6f6f6;
+  height: 70vh;
+}
+.course-page .heading {
+  position: relative;
+}
+.course-page .heading .btn {
+  position: absolute;
+  right: 0;
+}
+.course-page .heading h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.course-page .heading h1:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 1px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.course-page .heading h1:after {
+  background-color: #ddd;
+}
+.course-page .heading h1:after {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.course-page .heading .title-details {
+  display: flex;
+}
+.course-page .heading .title-details h2 {
+  font-family: Mallory, "Gill Sans", "Gill Sans MT", Calibri, Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  word-spacing: 1.25px;
+  letter-spacing: 0.75px;
+  font-size: 1.3rem;
+}
+.course-page .heading .title-details h2:first-of-type {
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #ddd;
+}
+.course-page .heading h3, .course-page .heading h4 {
+  color: #4a4a4a;
+}
+.course-page .heading h3 {
+  font-family: Mallory, "Gill Sans", "Gill Sans MT", Calibri, Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+.course-page .heading h4 {
+  font-family: Mallory, "Gill Sans", "Gill Sans MT", Calibri, Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+}
+.course-page .description p {
+  color: #4a4a4a;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.course-page .details {
+  display: flex;
+  justify-content: space-between;
+}
+.course-page .details h4 {
+  font-family: Mallory, "Gill Sans", "Gill Sans MT", Calibri, Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  word-spacing: 1.25px;
+  letter-spacing: 0.75px;
+  font-size: 1.2rem;
+}
+.course-page .details p {
+  color: #4a4a4a;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

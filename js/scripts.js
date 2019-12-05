@@ -57,6 +57,14 @@ $(document).ready(function () {
         $('#month').val('December');
     });
 
+
+    //-------------- COURSES --------------//
+    // Course row as link
+    $('.course').click(function () {
+       var url = $(this).find('a').attr('href');
+       window.location.href = url;
+    });
+
     //-------------- SMOOTH SCROLL --------------//
     $('a[href*="#"]')
     // Remove links that don't actually link to anything

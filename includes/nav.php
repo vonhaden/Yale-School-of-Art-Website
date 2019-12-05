@@ -35,7 +35,7 @@
         <div class="link-box">
             <a class="main-link" href="programs.php">Programs</a>
             <div class="dropdown">
-                <a href="#">Courses</a>
+                <a href="courses.php">Courses</a>
                 <a href="#">Summer Programs</a>
             </div>
         </div>
@@ -69,12 +69,14 @@
     </div>
 
 
-    <!-- SEARCH -->
+    <!-- RIGHT -->
+
     <div class="nav-right">
         <a class="right-link" href="login.php">Login</a>
         <a href="https://apply.art.yale.edu/apply/" class="btn btn-primary right-btn">Apply</a>
         <button class="btn btn-primary btn-grey-borders"><i class="fas fa-search"></i></button>
     </div>
+
 
 
 </nav>
