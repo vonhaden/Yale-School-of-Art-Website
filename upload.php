@@ -121,7 +121,7 @@ include "includes/nav.php";
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p>Your art have been successfully uploaded.</p>
+                    <p>Your art has been successfully uploaded.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="upload.php" class="btn btn-grey" data-dismiss="modal">Upload Another</a>

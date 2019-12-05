@@ -33,7 +33,7 @@
 
         <!-- PROGRAMS -->
         <div class="link-box">
-            <a class="main-link" href="#">Programs</a>
+            <a class="main-link" href="programs.php">Programs</a>
             <div class="dropdown">
                 <a href="#">Courses</a>
                 <a href="#">Summer Programs</a>

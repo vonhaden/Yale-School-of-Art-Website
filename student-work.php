@@ -16,7 +16,7 @@ include "includes/nav.php";
         <div class="row">
             <div class="col-12 heading">
                 <h1>Student Work</h1>
-                <a href="#" class="btn btn-primary btn-grey">Submit Art</a>
+                <a href="upload.php" class="btn btn-primary btn-grey">Submit Art</a>
             </div>
         </div>
 

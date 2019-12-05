@@ -11,10 +11,10 @@ $blue-light: #63aaff;
 //greys
 $grey-black: #222222;
 $grey-dark: #4a4a4a;
-$grey-medium: #7e736b;
-$grey-hover: #978d85;
+$grey-medium: #7e7e7e;
+$grey-hover: #969696;
 $grey-light: #ddd;
-$grey-white: #f9f9f9;
+$grey-white: #f6f6f6;
 
 
 
@@ -29,3 +29,11 @@ $button-pad: 15px;
 $h2-margin: 40px;
 
 $hor-fluid-pad: 25px;
+
+
+/******************** CALENDAR ********************/
+$cal-border-color: #ececec;
+$cal-border-width: 1px;
+$cal-border-width-outside: $cal-border-width * 2;
+$cal-border: $cal-border-width solid $cal-border-color;
+$cal-border-outside: $cal-border-width-outside solid $cal-border-color;

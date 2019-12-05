@@ -24,7 +24,7 @@ include "includes/nav.php";
                 <label for="password">Password</label>
                 <input type="password" class="form-control" id="password">
             </div>
-            <a href="authhome.php" class="btn btn-primary">Submit</a>
+            <a href="index.php" class="btn btn-primary">Submit</a>
         </form>
     </div>
 </div>
