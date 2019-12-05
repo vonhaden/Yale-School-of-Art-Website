@@ -86,16 +86,16 @@ include "includes/nav.php";
             <h2>Programs</h2>
         </div>
         <div class="row">
-            <a href="#" class="col-lg-3 col-md-6 program">
+            <a href="programs.php#graphic" class="col-lg-3 col-md-6 program">
                 <button class="btn btn-primary">Graphic Design</button>
             </a>
-            <a href="#" class="col-lg-3 col-md-6 program">
+            <a href="programs.php#painting" class="col-lg-3 col-md-6 program">
                 <button class="btn btn-primary">Painting & Print Making</button>
             </a>
-            <a href="#" class="col-lg-3 col-md-6 program">
+            <a href="programs.php#photography" class="col-lg-3 col-md-6 program">
                 <button class="btn btn-primary">Photography</button>
             </a>
-            <a href="#" class="col-lg-3 col-md-6 program">
+            <a href="programs.php#sculpture" class="col-lg-3 col-md-6 program">
                 <button class="btn btn-primary">Sculpture</button>
             </a>
         </div>

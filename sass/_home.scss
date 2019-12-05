@@ -2,7 +2,9 @@
     margin-bottom: 0;
     height: 550px;
     background-image:url("../images/cover.jpg");
-    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 0;
 
     .overlay {

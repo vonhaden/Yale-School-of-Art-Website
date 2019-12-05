@@ -1,9 +1,9 @@
 <?php
 // set page title
-$pageTitle = '';
+$pageTitle = 'Yale School of Art | Student Work';
 
 // set meta description
-$metaDescription = '';
+$metaDescription = 'See galleries of student\'s work';
 
 // includes
 include "includes/head.php";

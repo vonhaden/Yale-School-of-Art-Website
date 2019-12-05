@@ -72,7 +72,7 @@
     <!-- SEARCH -->
     <div class="nav-right">
         <a class="right-link" href="login.php">Login</a>
-        <a href="#" class="btn btn-primary right-btn">Apply</a>
+        <a href="https://apply.art.yale.edu/apply/" class="btn btn-primary right-btn">Apply</a>
         <button class="btn btn-primary btn-grey-borders"><i class="fas fa-search"></i></button>
     </div>
 

@@ -178,9 +178,99 @@
                 border: $cal-border;
                 background-color: #EBEBEB;
                 border-color: #d6d6d6;
-                z-index: 999;
+                z-index: 1;
                 transform: scale(1.1);
             }
         }
     }
+}
+
+.programs-page {
+    @include vert-pad-lg;
+    background-color: $grey-white;
+
+    .heading {
+        h1 {
+            margin-top: 0;
+            margin-bottom: $h2-margin;
+        }
+
+        .program-links {
+            a {
+                @include caps-link;
+                margin-right: 30px;
+            }
+        }
+    }
+
+    .image-header {
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 30px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            @include mallory-caps;
+            font-weight: 400;
+            font-size: 1.3rem;
+            padding: 20px;
+            background-color: $grey-dark;
+            color: $white;
+            margin-bottom: 0;
+        }
+    }
+    .graphic {
+        background-image: url("../images/graphics-large.jpg");
+    }
+    .painting {
+        background-image: url("../images/painting-large.jpg");
+    }
+    .photography {
+        background-image: url("../images/photography-large.jpg");
+    }
+    .sculpture {
+        background-image: url("../images/sculpture-large.jpg");
+    }
+
+
+    .program {
+
+        h3 {
+
+        }
+        h4 {
+            @include mallory-light;
+            color: $grey-dark;
+            font-size: 1.2rem;
+        }
+        .details {
+            display: flex;
+            color: $grey-medium;
+
+            p {
+                &:first-of-type {
+                    padding-right: 10px;
+                    margin-right: 10px;
+                    border-right: 1px solid $grey-light;
+                }
+            }
+        }
+        .description {
+            font-size: 0.9rem;
+        }
+        .links {
+            display: flex;
+            justify-content: flex-end;
+
+            .btn {
+                margin-left: 10px;
+            }
+        }
+    }
+
+
 }

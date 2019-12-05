@@ -473,7 +473,7 @@ body .container-fluid {
   background-color: #fff;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 2;
 }
 .navigation .nav-links .link-box .dropdown a {
   float: none;
@@ -608,7 +608,9 @@ body .btn-grey-borders:hover {
   margin-bottom: 0;
   height: 550px;
   background-image: url("../images/cover.jpg");
-  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 0;
 }
 .jumbotron .overlay {
@@ -1045,8 +1047,96 @@ body .btn-grey-borders:hover {
   border: 1px solid #ececec;
   background-color: #EBEBEB;
   border-color: #d6d6d6;
-  z-index: 999;
+  z-index: 1;
   transform: scale(1.1);
+}
+
+.programs-page {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #f6f6f6;
+}
+.programs-page .heading h1 {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.programs-page .heading .program-links a {
+  font-family: Mallory, "Gill Sans", "Gill Sans MT", Calibri, Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  word-spacing: 1.25px;
+  letter-spacing: 0.75px;
+  color: #286dc0;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.25s;
+  margin-right: 30px;
+}
+.programs-page .heading .program-links a:hover {
+  border-bottom: 1px solid #286dc0;
+}
+.programs-page .image-header {
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.programs-page .image-header h2 {
+  font-family: Mallory, "Gill Sans", "Gill Sans MT", Calibri, Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  word-spacing: 1.25px;
+  letter-spacing: 0.75px;
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding: 20px;
+  background-color: #4a4a4a;
+  color: #fff;
+  margin-bottom: 0;
+}
+.programs-page .graphic {
+  background-image: url("../images/graphics-large.jpg");
+}
+.programs-page .painting {
+  background-image: url("../images/painting-large.jpg");
+}
+.programs-page .photography {
+  background-image: url("../images/photography-large.jpg");
+}
+.programs-page .sculpture {
+  background-image: url("../images/sculpture-large.jpg");
+}
+.programs-page .program h4 {
+  font-family: Mallory, "Gill Sans", "Gill Sans MT", Calibri, Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #4a4a4a;
+  font-size: 1.2rem;
+}
+.programs-page .program .details {
+  display: flex;
+  color: #7e7e7e;
+}
+.programs-page .program .details p:first-of-type {
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid #ddd;
+}
+.programs-page .program .description {
+  font-size: 0.9rem;
+}
+.programs-page .program .links {
+  display: flex;
+  justify-content: flex-end;
+}
+.programs-page .program .links .btn {
+  margin-left: 10px;
 }
 
 /*--------------------------------------------------------------
