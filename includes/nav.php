@@ -70,13 +70,21 @@
 
 
     <!-- RIGHT -->
-
+    <?php if ($_SESSION['loggedin'] == false): ?>
     <div class="nav-right">
         <a class="right-link" href="login.php">Login</a>
         <a href="https://apply.art.yale.edu/apply/" class="btn btn-primary right-btn">Apply</a>
         <button class="btn btn-primary btn-grey-borders"><i class="fas fa-search"></i></button>
     </div>
+    <?php endif; ?>
 
+    <?php if ($_SESSION['loggedin'] == true): ?>
+        <div class="nav-right">
+            <a class="right-link" href="index.php?login=false">logout</a>
+            <a href="upload.php" class="btn btn-primary right-btn">Submit Art</a>
+            <button class="btn btn-primary btn-grey-borders"><i class="fas fa-search"></i></button>
+        </div>
+    <?php endif; ?>
 
 
 </nav>

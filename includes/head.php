@@ -1,3 +1,25 @@
+<?php
+    // Login Session
+
+    session_start();
+
+    $login = '';
+
+    if (isset($_GET['login'])){
+        $logintemp = $_GET['login'];
+        if ($logintemp == 'true'){
+            $login = true;
+        } elseif ($logintemp == 'false') {
+            $login = false;
+        }
+    }
+
+    if (!isset($_SESSION['loggedin'])) {
+        $_SESSION['loggedin'] = false;
+    } elseif ((isset($_SESSION['loggedin'])) and (isset($_GET['login'])) ) {
+        $_SESSION['loggedin'] = $login;
+    }
+?>
 
 <!DOCTYPE html>
 <html lang="en">
