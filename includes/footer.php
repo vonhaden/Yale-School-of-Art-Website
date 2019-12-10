@@ -34,6 +34,7 @@
                 <div>
                     <h4><a href="student-work.php">Student Work</a></h4>
                     <ul>
+                        <li><a href="upload.php">Submit Art</a></li>
                         <li><a href="#">Exhibits & Publications</a></li>
                     </ul>
                 </div>
@@ -47,11 +48,7 @@
                 </div>
 
                 <div>
-                    <h4><a href="community-events.php">Community Events</a></h4>
-                </div>
-
-                <div>
-                    <h4><a href="#">Academic Calendar</a></h4>
+                    <h4><a href="calendar.php">Calendar</a></h4>
                 </div>
 
                 <div>

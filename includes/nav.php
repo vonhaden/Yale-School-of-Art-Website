@@ -14,6 +14,7 @@
         <div class="link-box">
             <a class="main-link" href="#">About Us</a>
             <div class="dropdown">
+                <a href="#">About</a>
                 <a href="#">Facilities</a>
                 <a href="#">Faculty & Staff</a>
                 <a href="#">Study Areas</a>
@@ -27,6 +28,8 @@
         <div class="link-box">
             <a class="main-link" href="student-work.php">Student Work</a>
             <div class="dropdown">
+                <a href="student-work.php">Student Work</a>
+                <a href="upload.php">Submit Art</a>
                 <a href="#">Exhibits & Publications</a>
             </div>
         </div>
@@ -35,26 +38,23 @@
         <div class="link-box">
             <a class="main-link" href="programs.php">Programs</a>
             <div class="dropdown">
+                <a href="programs.php">Programs</a>
                 <a href="courses.php">Courses</a>
                 <a href="#">Summer Programs</a>
             </div>
         </div>
 
-        <!-- COMMUNITY EVENTS -->
+        <!-- CALENDAR -->
         <div class="link-box">
-            <a class="main-link" href="community-events.php">Community Events</a>
+            <a class="main-link" href="calendar.php">Calendar</a>
         </div>
 
-
-        <!-- ACADEMIC CALENDER -->
-        <div class="link-box">
-            <a class="main-link" href="#">Academic Calendar</a>
-        </div>
 
         <!-- STUDENT RESOURCES -->
         <div class="link-box ">
             <a class="main-link" href="#">Student Resources</a>
             <div class="dropdown">
+                <a href="#">Student Resources</a>
                 <a href="#">Financial Aid</a>
                 <a href="#">How To Apply</a>
                 <a href="#">General Info</a>

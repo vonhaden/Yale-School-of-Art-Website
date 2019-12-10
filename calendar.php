@@ -22,7 +22,7 @@ include "includes/nav.php";
                 <button class="btn btn-arrow"><i class="fas fa-chevron-left"></i></button>
                 <button class="btn btn-arrow"><i class="fas fa-chevron-right"></i></button>
                 <button type="button" class="btn btn-primary submit" data-toggle="modal" data-target="#modal-complete">
-                    Submit Event
+                    Add Event
                 </button>
             </div>
         </div>
@@ -31,31 +31,52 @@ include "includes/nav.php";
         <div class="row">
 
             <!-- Calendar Details -->
-            <div class="col-2">
+            <div class="col-2 details-bar">
+
                 <div class="form-group">
                     <input type="search" class="form-control" placeholder="Search"">
                 </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="galleries" id="check-galleries" checked>
-                    <label class="form-check-label" for="check-galleries">Galleries</label>
+                <div class="academic-calendar check-group">
+                    <h3>Academic Calendar</h3>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="holidays" id="check-holidays" checked>
+                        <label class="form-check-label" for="check-holidays">Holidays</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="terms" id="check-terms" checked>
+                        <label class="form-check-label" for="check-terms">Terms</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="events" id="check-events" checked>
+                        <label class="form-check-label" for="check-events">Events</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="registration" id="check-registration" checked>
+                        <label class="form-check-label" for="check-registration">Registration</label>
+                    </div>
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="speakers" id="check-speakers" checked>
-                    <label class="form-check-label" for="check-speakers">Speakers</label>
+
+                <div class="community-events check-group">
+                    <h3>Community Events</h3>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="galleries" id="check-galleries" checked>
+                        <label class="form-check-label" for="check-galleries">Galleries</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="speakers" id="check-speakers" checked>
+                        <label class="form-check-label" for="check-speakers">Speakers</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="workshop" id="check-workshop" checked>
+                        <label class="form-check-label" for="check-workshop">Workshops</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="fairs" id="check-fairs" checked>
+                        <label class="form-check-label" for="check-fairs">Fairs</label>
+                    </div>
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="student" id="check-student" checked>
-                    <label class="form-check-label" for="check-student">Student Events</label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="workshop" id="check-workshop" checked>
-                    <label class="form-check-label" for="check-workshop">Workshop</label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="fairs" id="check-fairs" checked>
-                    <label class="form-check-label" for="check-fairs">Fairs</label>
-                </div>
+
             </div>
 
 
